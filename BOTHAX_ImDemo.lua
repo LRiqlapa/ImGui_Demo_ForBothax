@@ -28,7 +28,7 @@ function imDemo(deltaTime)
     -- The easiest thing we can do in imgui is drawing text. The function is called TextUnformatted because
     -- it doesn't support C-style format strings. imgui has a function called Text() that does support these
     -- format strings, but it is not supported in lua.
-    ImGui.TextUnformatted("Hello, World! Imgui 1.00 demo for BOTHAX")
+    ImGui.TextUnformatted("Imgui 1.00 demo for BOTHAX, convert from GENTA HAX by Void_String")
 	ImGui.Text("Delta Time: "..deltaTime)
     -- Since TextUnformatted does not support format strings, you can use lua to create a string on the fly:
     ImGui.TextUnformatted("Window size: " .. win_width .. ", " .. win_height)
